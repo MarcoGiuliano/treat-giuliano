@@ -12,10 +12,10 @@
       <q-img src="../assets/star.png" class="star" />
       <p class="text-name-avatar q-mt-md">Carmen Rodriguez</p>
       <p class="subtitulo-avatar q-mt-md">Retos cumplidos</p>
-      <div class="gradient circle-avatar">321</div>
+      <div class="circle-321">321</div>
       <div class="container-ig-tik">
         <div>
-          <div class="gradient circle-redes">
+          <div class="circle-redes">
             <q-img src="../assets/instagram-line.png" class="icon-ig" />
           </div>
           <p class="subtitulo-avatar q-mt-md">3.5 MiLL</p>
@@ -108,6 +108,17 @@ export default defineComponent({
   color: white;
   font-size: 69px;
 }
+.circle-321 {
+  width: 143px;
+  height: 144px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 69px;
+  background-image: url("../assets/bg-321.png");
+}
 
 .container-ig-tik {
   width: 100%;
@@ -123,15 +134,6 @@ export default defineComponent({
 .icon-tiktok {
   width: 21px;
   height: 25px;
-}
-
-.circle-redes {
-  width: 67px;
-  height: 67px;
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .bio {

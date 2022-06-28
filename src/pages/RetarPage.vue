@@ -34,12 +34,17 @@
       v-model="slide"
       control-color="primary"
       padding
-      height="800px"
+      height="900px"
       class="bg-white shadow-1 rounded-borders card"
     >
       <q-carousel-slide :name="1" class="column no-wrap flex-center">
         <div class="column items-center justify-center">
-          <q-img @click="rotate" src="../assets/ruleta.png" class="ruleta" />
+          <q-img @click="rotate" src="../assets/spin.png" class="pin" />
+          <q-img
+            @click="rotate"
+            src="../assets/spin-wheel.png"
+            class="ruleta"
+          />
           <p class="title-modal">Reto obtenido!</p>
           <p class="subtitle-modal">Suspendisse finibus ullamcorper leo</p>
           <p class="text-modal">
@@ -51,8 +56,19 @@
       </q-carousel-slide>
       <q-carousel-slide :name="2" class="column no-wrap flex-center">
         <div class="column items-center justify-start">
-          <q-img @click="rotate" src="../assets/ruleta.png" class="ruleta" />
-          <p class="title-modal">Puedes proponer un reto!</p>
+          <!-- width: 44px;
+  height: 52px; -->
+          <q-img @click="rotate" src="../assets/spin.png" class="pin" />
+          <q-img
+            @click="rotate"
+            src="../assets/spin-wheel.png"
+            class="ruleta"
+          />
+          <!-- width: 240px;
+  height: 280px; -->
+          <p class="title-modal" style="font-size: 30px">
+            Puedes proponer un reto!
+          </p>
           <p class="subtitle-modal">Suspendisse finibus ullamcorper leo</p>
           <p class="text-modal">
             Describe el reto que te gustaría que Carmen Rodriguez realice!
@@ -178,6 +194,7 @@ export default {
 .ruleta {
   width: 240px;
   height: 280px;
+  filter: brightness(150%);
 }
 
 .title-modal {
@@ -205,5 +222,11 @@ export default {
 .people-modal {
   width: 153px;
   height: 251px;
+}
+.pin {
+  width: 44px;
+  height: 52px;
+  margin-bottom: -25px;
+  z-index: 1;
 }
 </style>
