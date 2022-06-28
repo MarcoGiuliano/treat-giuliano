@@ -1,0 +1,126 @@
+// app global css in SCSS form
+
+body {
+  font-family: "Comfortaa", cursive;
+}
+
+.container-principal {
+}
+
+.icon-treat {
+  width: 55px;
+  height: 113px;
+}
+
+.text-treat {
+  font-size: 53px;
+  margin: 0px;
+  font-weight: bold;
+  color: #707070;
+}
+
+.people-icecream {
+  width: 387px;
+  height: 482px;
+}
+
+.text-hola {
+  font-size: 34px;
+  font-weight: 700;
+  margin: 0px !important;
+  margin-right: 60px !important;
+}
+
+.btn-ingresar {
+  font-size: 20px !important;
+  width: 350px;
+  background: #f09433;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+}
+
+.text-registro-login {
+  font-size: 14px;
+  color: grey;
+}
+
+.subtitulo-avatar {
+  font-size: 16px;
+  color: #585858;
+}
+
+.gradient {
+  background: #f09433;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+}
+.star {
+  width: 35px;
+  height: 35px;
+  z-index: 1;
+  margin-top: -20px;
+}
+
+.container-princ-notificacion {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.container-notificaciones {
+  background-color: #fd397f;
+  width: 17px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 10px;
+  z-index: 1;
+  margin-bottom: -50px;
+}
